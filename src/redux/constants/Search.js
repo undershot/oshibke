@@ -1,0 +1,1 @@
+export const SEARCH_FETCHING = "SEARCH_FETCHING";

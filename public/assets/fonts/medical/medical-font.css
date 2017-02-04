@@ -1,0 +1,330 @@
+@font-face {
+  font-family: 'medical';
+  src:  url('fonts/medical.eot?rh60ls');
+  src:  url('fonts/medical.eot?rh60ls#iefix') format('embedded-opentype'),
+    url('fonts/medical.ttf?rh60ls') format('truetype'),
+    url('fonts/medical.woff?rh60ls') format('woff'),
+    url('fonts/medical.svg?rh60ls#medical') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.medical {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'medical' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.medical-shaking-hands:before {
+  content: "\e900";
+}
+.medical-ambulance:before {
+  content: "\e901";
+}
+.medical-baby-face:before {
+  content: "\e902";
+}
+.medical-bandage-cross:before {
+  content: "\e903";
+}
+.medical-biohazard:before {
+  content: "\e904";
+}
+.medical-biology-shape:before {
+  content: "\e905";
+}
+.medical-blood-analysis:before {
+  content: "\e906";
+}
+.medical-blood-cell:before {
+  content: "\e907";
+}
+.medical-blood-drop:before {
+  content: "\e908";
+}
+.medical-blood-pressure-control-tool:before {
+  content: "\e909";
+}
+.medical-blood-sample:before {
+  content: "\e90a";
+}
+.medical-blood-transfusion:before {
+  content: "\e90b";
+}
+.medical-brain-in-bald-male-head:before {
+  content: "\e90c";
+}
+.medical-broken-bone:before {
+  content: "\e90d";
+}
+.medical-broken-feet-with-bandage:before {
+  content: "\e90e";
+}
+.medical-brush-with-tooth-paste:before {
+  content: "\e90f";
+}
+.medical-caduceus-medical-symbol-of-two-ascending-serpents-on-a-cane-with-wings:before {
+  content: "\e910";
+}
+.medical-cells-in-a-circle:before {
+  content: "\e911";
+}
+.medical-chemistry-flask-with-liquid:before {
+  content: "\e912";
+}
+.medical-crutch:before {
+  content: "\e913";
+}
+.medical-crutches-couple:before {
+  content: "\e914";
+}
+.medical-dentist-tool:before {
+  content: "\e915";
+}
+.medical-dosage-medical-tool:before {
+  content: "\e916";
+}
+.medical-drug-pills:before {
+  content: "\e917";
+}
+.medical-drugs-capsules-and-pills:before {
+  content: "\e918";
+}
+.medical-emergency-light:before {
+  content: "\e919";
+}
+.medical-eye-scanner-medical-symbol:before {
+  content: "\e91a";
+}
+.medical-family-of-heterosexual-couple:before {
+  content: "\e91b";
+}
+.medical-female-sign:before {
+  content: "\e91c";
+}
+.medical-first-aid-kit:before {
+  content: "\e91d";
+}
+.medical-handicap:before {
+  content: "\e91e";
+}
+.medical-heart-beats-lifeline-in-a-heart:before {
+  content: "\e91f";
+}
+.medical-heart-black-shape:before {
+  content: "\e920";
+}
+.medical-heart-rate-monitor:before {
+  content: "\e921";
+}
+.medical-hospital-bed-silhouette-side-view:before {
+  content: "\e922";
+}
+.medical-hospital-building-front:before {
+  content: "\e923";
+}
+.medical-hospital-letter-sign-in-rounded-square:before {
+  content: "\e924";
+}
+.medical-hospital-medical-signal-of-a-cross-in-a-circle:before {
+  content: "\e925";
+}
+.medical-hospital-placeholder:before {
+  content: "\e926";
+}
+.medical-human-ear-shape:before {
+  content: "\e927";
+}
+.medical-human-eye-shape:before {
+  content: "\e928";
+}
+.medical-human-feet-shape:before {
+  content: "\e929";
+}
+.medical-hurted-finger-with-bandage:before {
+  content: "\e92a";
+}
+.medical-illness-on-bed:before {
+  content: "\e92b";
+}
+.medical-lifeline-of-heartbeats-on-a-paper-on-a-clipboard:before {
+  content: "\e92c";
+}
+.medical-lungs-silhouette:before {
+  content: "\e92d";
+}
+.medical-male-gender-sign:before {
+  content: "\e92e";
+}
+.medical-medical-chain-symbol-of-dna:before {
+  content: "\e92f";
+}
+.medical-medical-chopper-transport:before {
+  content: "\e930";
+}
+.medical-medical-circular-glasses:before {
+  content: "\e931";
+}
+.medical-medical-doctor-specialist:before {
+  content: "\e932";
+}
+.medical-medical-hammer-tool:before {
+  content: "\e933";
+}
+.medical-medical-heart-scan:before {
+  content: "\e934";
+}
+.medical-medical-notes-symbol-of-a-list-paper-on-a-clipboard:before {
+  content: "\e935";
+}
+.medical-medical-pill:before {
+  content: "\e936";
+}
+.medical-medical-results-folders:before {
+  content: "\e937";
+}
+.medical-medical-samples-in-test-tubes-couple:before {
+  content: "\e938";
+}
+.medical-medical-talk-symbol-of-rectangular-speech-bubble-with-a-cross-inside:before {
+  content: "\e939";
+}
+.medical-medical-temperature-control-tool:before {
+  content: "\e93a";
+}
+.medical-medicine-capsules:before {
+  content: "\e93b";
+}
+.medical-medicines-bowl:before {
+  content: "\e93c";
+}
+.medical-medicine-small-bottle-with-dropper-included-for-drops-dosage:before {
+  content: "\e93d";
+}
+.medical-men-silhouette:before {
+  content: "\e93e";
+}
+.medical-microscope-tool:before {
+  content: "\e93f";
+}
+.medical-mother-with-baby-in-arms:before {
+  content: "\e940";
+}
+.medical-mouth-tube-in-bald-male-head:before {
+  content: "\e941";
+}
+.medical-negative-sign-on-medical-clipboard:before {
+  content: "\e942";
+}
+.medical-nurse:before {
+  content: "\e943";
+}
+.medical-nurse-1:before {
+  content: "\e944";
+}
+.medical-opened-medical-scissors:before {
+  content: "\e945";
+}
+.medical-oxygen:before {
+  content: "\e946";
+}
+.medical-person-with-broken-arm:before {
+  content: "\e947";
+}
+.medical-pharmacy-shopping-cart:before {
+  content: "\e948";
+}
+.medical-pharmacy-symbol:before {
+  content: "\e949";
+}
+.medical-pharmacy-tool:before {
+  content: "\e94a";
+}
+.medical-poison-bottle-with-a-skull-symbol:before {
+  content: "\e94b";
+}
+.medical-positive-verified-symbol-of-a-clipboard:before {
+  content: "\e94c";
+}
+.medical-pregnancy:before {
+  content: "\e94d";
+}
+.medical-pulse-line:before {
+  content: "\e94e";
+}
+.medical-rolled-paper-for-bathroom:before {
+  content: "\e94f";
+}
+.medical-scale-balanced-tool:before {
+  content: "\e950";
+}
+.medical-scale-tool-to-control-body-weight-standing-on-it:before {
+  content: "\e951";
+}
+.medical-scalpel-or-knife-medical-surgery-cutting-tool:before {
+  content: "\e952";
+}
+.medical-screw:before {
+  content: "\e953";
+}
+.medical-sperm:before {
+  content: "\e954";
+}
+.medical-stethoscope-medical-heart-beats-control-tool:before {
+  content: "\e955";
+}
+.medical-stomach-shape:before {
+  content: "\e956";
+}
+.medical-symbolic-cancer-ribbon:before {
+  content: "\e957";
+}
+.medical-syringe-with-medicine:before {
+  content: "\e958";
+}
+.medical-syrup-medicine-bottle:before {
+  content: "\e959";
+}
+.medical-tag-with-a-cross:before {
+  content: "\e95a";
+}
+.medical-teeth-silhouette:before {
+  content: "\e95b";
+}
+.medical-thermometer-medical-fever-temperature-control-tool:before {
+  content: "\e95c";
+}
+.medical-three-hexagons-cell-symbol:before {
+  content: "\e95d";
+}
+.medical-toxic-symbol:before {
+  content: "\e95e";
+}
+.medical-unhealthy-medical-condition:before {
+  content: "\e95f";
+}
+.medical-united-heterosexual-symbols:before {
+  content: "\e960";
+}
+.medical-water-glass:before {
+  content: "\e961";
+}
+.medical-weight-silhouette-for-medical-sport-practice:before {
+  content: "\e962";
+}
+.medical-women-silhouette:before {
+  content: "\e963";
+}
+.medical-x-ray-of-bones:before {
+  content: "\e964";
+}
+

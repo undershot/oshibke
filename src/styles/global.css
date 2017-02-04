@@ -1,0 +1,192 @@
+html, body, #remedis-root{
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+
+	font: 400 100% "Roboto", sans-serif;
+}
+
+a{
+	outline: none;
+}
+
+ul, li{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+
+.remedis-app{
+	width: 100%;
+	height: 100%;
+}
+
+.wrapper{
+	max-width: 1300px;
+	width: auto;
+
+	&--centered{
+		margin: 0 auto;
+	}
+
+	&--full{
+		width: 100%;
+		height: 100%;
+
+		&-height{
+			height: 100%;
+		}
+		&-width{
+			width: 100%;
+		}
+	}
+}
+
+.icon{
+	display: inline-block;
+
+	&__custom {
+
+		&--burger{
+			position: relative;
+			width: 22px;
+			height: 18px;
+
+			& i{
+				transition: all .15s;
+				display: block;
+				width: 100%;
+				height: 4px;
+				margin-bottom: 3px;
+				background: #000;
+
+				&:nth-child(1){
+					width: 60%;
+				}
+				&:nth-child(2){
+					width: 80%;
+				}
+			}
+
+			&--opened{
+				position: relative;
+				height: 4px;
+
+				& i{
+					width: 100% !important;
+					position: absolute;
+				}
+			}
+
+			&__first{
+				left: 0;
+				transform: rotate(45deg);
+			}
+			&__middle{
+				opacity: 0
+			}
+			&__last{
+				right: 0;
+				transform: rotate(315deg)
+			}
+		}
+	}
+
+	&__search{
+		font-size: 21px;
+		display: inline-block;
+		vertical-align: middle;
+		/*height: 12px;*/
+	}
+
+}
+
+.block {
+
+	&__vertical-center{
+		display: table;
+
+		&--inner{
+			display: table-cell;
+			vertical-align: middle;
+		}
+	}
+}
+
+.textfield {
+	border: none;
+	outline: none;
+	font-family: "Roboto", sans-serif;
+	font-size: 14px;
+
+	&__search{
+		background: #f6f6f6;
+		width: 220px;
+		padding: 0 50px 0 50px;
+		text-align: left;
+		border-radius: 20px;
+		height: 37px;
+		border: 1px solid #fff;
+		transition: all .15s;
+
+		&--focused{
+			/*width: 250px;
+			padding: 0 20px 0 50px;
+
+			text-align: left;*/
+		}
+
+		&::-webkit-input-placeholder { text-align: center; }
+		&::-moz-placeholder { text-align: center; }
+		&:-ms-input-placeholder { text-align: center; }
+		&:-moz-placeholder { text-align: center; }
+		&:hover{
+			background: #f0f0f0;
+		}
+		&:focus{
+			background: #fff;
+			border-color: #f6f6f6;
+		}
+		
+
+	}
+}
+
+
+
+
+
+.button {
+	padding: 0;
+	outline: none;
+
+	&__search{
+		position: absolute;
+		top: 0;
+		left: 0;
+		display: inline-block;
+		width: 50px;
+		height: 39px;
+		/*line-height: 38px;*/
+		vertical-align: middle;
+		border: none;
+		background: none;
+		cursor: pointer;
+		color: rgba(0,0,0,.61);
+	}
+}
+
+.show-site-mode{
+	opacity: 0;
+	transition: opacity .3s;
+
+	&--showed{
+		opacity: 1;
+	}
+}
